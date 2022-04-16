@@ -14,7 +14,7 @@ from pprint import pprint
 
 
  # Creates a socket instance
-context = zmq.Context()
+context = zmq.Context() # Edit test comment
 socket = context.socket(zmq.PUB)    
 socket1 = context.socket(zmq.SUB)
 socket2 = context.socket(zmq.SUB)
